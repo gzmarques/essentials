@@ -114,4 +114,5 @@ export FARMA_DATABASE_PASSWORD=postgresql
 export SECRET_KEY_BASE=6f65b70fc1d4af4a809c24e9ea6bdeeffbd0e37626921b60fe15f4984ccbc615a3b94028cbe11cfe7a513c27c19ec1d4b1759a295206227cb307a561097cd8b8
 
 export PATH="$PATH:$HOME/.config/composer/vendor/bin"
+export PATH="$PATH:$HOME/webDev/android-studio/bin/"
 source $HOME/.rvm/scripts/rvm
