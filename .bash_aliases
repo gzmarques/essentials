@@ -118,7 +118,7 @@ export PATH="$PATH:$HOME/webDev/android-studio/bin/"
 source $HOME/.rvm/scripts/rvm
 
 alias upd="sudo apt update"
-alias upg="sudo apt update && sudo apt upgrade"
+alias upg="sudo apt update && sudo apt -y upgrade && sudo apt -y autoremove"
 alias toss="git push origin master && git push heroku master"
 alias bstart="bundle update && bundle install && rails restart"
 
